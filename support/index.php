@@ -38,7 +38,7 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
     if($cfg && ($page = $cfg->getLandingPage()))
         echo $page->getBodyWithImages();
     else
-        echo  '<h1>'.__('Welcome to the Support Center').'</h1>';
+        echo  '<h1>'.__('Selamat datang di Aplikasi Ticketing PT Prima Terminal Petikemas').'</h1>';
     ?>
     </div>
 </div>
